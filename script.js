@@ -19,7 +19,7 @@ let distance = (x1, y1, x2, y2) => {
     return Math.sqrt(part3);
 }
 
-document.addEventListener("click", function(event) {
+document.addEventListener("click", event => {
    var mouseX = event.clientX;
    var mouseY = event.clientY;
    for(let i = 0; i < bubbles.length; i++) {
